@@ -1,8 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CircleButton from '../CircleButton/CircleButton'
-import AddFolder from '../AddFolder/AddFolder';
-import AddNote from '../AddNote/AddNote';
 import './NotePageNav.css'
 
 
@@ -26,9 +24,6 @@ export default function NotePageNav(props) {
 
         </h3>
       )}
-
-      <AddFolder />
-      <AddNote />
     </div>
   )
 }
